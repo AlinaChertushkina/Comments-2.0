@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form class="main-container">
+        <div class="comments">
+            <h2 class="comment-title">Оставьте ваш комментарий</h2>
+            <div class="checkbox">
+                <span>Показывать ваше имя?</span>
+                <input type="checkbox" id="yes">
+                <label for="yes">Да</label>
+                <input type="checkbox" id="no" onclick="toggleUserNameInput()">
+                <label for="no">Нет</label>
+
+            </div>
+            <div class="name-block">
+                <p class="enter-name">Введите ваше имя:</p>
+                <input type="text" class="user_name">
+            </div>
+            <div class="link-block">
+                <p class="enter-link">Введите ссылку вашего аватара:</p>
+                <input type="text" class="link">
+            </div>
+            <div class="comment-block">
+                <p class="leave-comment">Оставьте комментарий:</p>
+                <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            </div>
+            <button type="button" class="button">Отправить</button>
+        </div>
+        <div class="chat">
+            <h2 class="chat-title">Чат</h2>
+            <div class="chat-container">
+                <div class="pic-container">
+                    <p id="profile_pic"></p>
+                </div>
+                <p id="chat_field"></p>
+                <div id="date"></div>
+            </div>
+            <div id="entered_comment"></div>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>

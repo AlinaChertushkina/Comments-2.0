@@ -1,0 +1,70 @@
+.comment-title {
+    color: rgba(50, 50, 231, 0.642);
+    font-weight: bolder;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 2rem;
+}
+
+.enter-name {
+    color: rgba(50, 50, 231, 0.642);
+    font-weight: bolder;
+}
+
+.user_name {
+    border: dotted;
+    width: 50%;
+}
+
+.enter-link {
+    color: rgba(50, 50, 231, 0.642);
+    font-weight: bolder;
+}
+
+.link {
+    border: dotted;
+    width: 50%;
+}
+
+.leave-comment {
+    color: rgba(50, 50, 231, 0.642);
+    font-weight: bolder;
+}
+
+#comment {
+    width: 50%;
+    border: dotted;
+}
+
+.button {
+    width: 20%;
+    height: 30px;
+    background-color: rgba(50, 50, 231, 0.642);
+    color: white;
+    border: dotted;
+    cursor: pointer;
+}
+
+.chat-title {
+    color: rgba(50, 50, 231, 0.642);
+    font-weight: bolder;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+#date {
+    padding-left: 200px;
+}
